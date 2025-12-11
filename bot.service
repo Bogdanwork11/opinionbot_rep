@@ -1,0 +1,14 @@
+[Unit]
+Description=@opiniondevelopment_bot
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/opiniondevelopment_bot
+ExecStart=/home/opiniondevelopment_bot/venv/bin/python opinion_main.py
+KillMode=process
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
