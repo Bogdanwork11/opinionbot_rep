@@ -7,7 +7,7 @@ db_conn = {
     "password":"12345678",
     "host":"127.0.0.1",
     "port":"5432",
-    "database": "opinionbot12"
+    "database": "opinionbot12_db"
 }
 
 #Подключение к бд
