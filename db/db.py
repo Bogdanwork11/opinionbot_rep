@@ -3,8 +3,8 @@ import asyncpg
 import json
 
 db_conn = {
-    "user":"postgres",
-    "password":"28085678",
+    "user":"bogdan",
+    "password":"12345678",
     "host":"127.0.0.1",
     "port":"5432",
     "database": "opinionbot12"
