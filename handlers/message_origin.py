@@ -840,7 +840,7 @@ async def process_answer_7(callback:CallbackQuery, state: FSMContext):
     print("добавленный ответ answers", answers)
     
     #Тут начал внедрять pillow
-    photo_pil = "E:/ShablonsPillow/whitefoto.jpg"#Задал директорию к лежачему файлу на компе
+    photo_pil = "assets/images/whitefoto.jpg"#Задал директорию к лежачему файлу на компе
     image = Image.open(photo_pil)
     draw = ImageDraw.Draw(image)
     shrift = ImageFont.truetype('fonts/times.ttf', 32) 
